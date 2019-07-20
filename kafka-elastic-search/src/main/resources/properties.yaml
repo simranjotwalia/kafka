@@ -1,0 +1,9 @@
+bootStrapServer: "localhost:9092"
+topicName: "simran_walia"
+groupId: "myGroup"
+es_hostname: "localhost"
+es_port: 9200
+es_index_name: "twitter"
+es_index_type: "tweets"
+twitter_es_groupId: "es_tweets"
+topic_twitter: "twitter_tweets"

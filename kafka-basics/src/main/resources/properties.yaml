@@ -1,0 +1,4 @@
+bootStrapServer: "localhost:9092"
+topicName: "simran_walia"
+groupId: "myGroup"
+topic_twitter: "twitter_tweets"
