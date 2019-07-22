@@ -20,7 +20,7 @@ public class ConsumerDemoWithThread {
     Logger logger = LoggerFactory.getLogger(ConsumerDemoWithThread.class);
 
     public static void main(String[] args) {
-        ConfigReader reader = new ConfigReader();
+        ConfigReader reader = ConfigReader.getInstance();
         Map<String, Object> configs = reader.getConfigs();
         new ConsumerDemoWithThread().spawnThread(configs);
     }

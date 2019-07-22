@@ -23,7 +23,7 @@ public class ProducerDemoWithCallback {
 
         //create a producer
         KafkaProducer<String, String> producer = new KafkaProducer(props);
-        for(int i=0; i<5; i++){
+        for(int i=0; i<23; i++){
             //create a record
             final ProducerRecord<String, String> record1 = new ProducerRecord<String, String>("simran_walia", "Kidan Bai " + i );
             //send data
